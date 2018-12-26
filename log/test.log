@@ -1,0 +1,20 @@
+INFO:root:Something bad happeded
+Traceback (most recent call last):
+  File "/Users/Woong/GroundZero/PycharmProjects/PythonPlayground/log/logging_python.py", line 5, in <module>
+    copy2('test.txt','test2.txt')
+  File "/Users/Woong/anaconda3/envs/acon36/lib/python3.6/shutil.py", line 257, in copy2
+    copyfile(src, dst, follow_symlinks=follow_symlinks)
+  File "/Users/Woong/anaconda3/envs/acon36/lib/python3.6/shutil.py", line 120, in copyfile
+    with open(src, 'rb') as fsrc:
+FileNotFoundError: [Errno 2] No such file or directory: 'test.txt'
+INFO:root:Something bad happeded earlier
+Traceback (most recent call last):
+  File "/Users/Woong/GroundZero/PycharmProjects/PythonPlayground/log/logging_python.py", line 8, in <module>
+    copyfile()
+  File "/Users/Woong/GroundZero/PycharmProjects/PythonPlayground/log/logging_python.py", line 5, in copyfile
+    copy2('test.txt','test2.txt')
+  File "/Users/Woong/anaconda3/envs/acon36/lib/python3.6/shutil.py", line 257, in copy2
+    copyfile(src, dst, follow_symlinks=follow_symlinks)
+  File "/Users/Woong/anaconda3/envs/acon36/lib/python3.6/shutil.py", line 120, in copyfile
+    with open(src, 'rb') as fsrc:
+FileNotFoundError: [Errno 2] No such file or directory: 'test.txt'
