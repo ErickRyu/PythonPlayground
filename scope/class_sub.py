@@ -2,10 +2,14 @@
 
 class Sub1:
     value = 0
+    value_self = 'Which class value?'
 
     def __init__(self):
         Sub1.value = 1
         self.value_self = 'this is class value 1'
+
+    def get_value_self(self):
+        return self.value_self
 
     @staticmethod
     def inc_val():
@@ -22,3 +26,4 @@ class Sub1:
     @staticmethod
     def get_value_staticmethod():
         return Sub1.value
+
