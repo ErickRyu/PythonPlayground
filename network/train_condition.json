@@ -1,0 +1,70 @@
+{
+  "OpenSkill" : 56,
+  "Dummy" : {
+    "Firmware" : "1.0.5555",
+    "Model" : "Brayden pro",
+    "Hardware" : "1.0",
+    "DeviceID" : "AFDS"
+  },
+  "Usage" : {
+    "Time" : "17:44:22",
+    "Type" : "CPR Training",
+    "uName" : "lstd1lstd1",
+    "Coaching" : "Self training",
+    "Date" : "2018.12.21",
+    "Comment" : "This is comment field",
+    "Email" : null,
+    "Level" : "Lay"
+  },
+  "Organization" : {
+    "org_id" : "0eba0f96-29a2-11e7-bf2a-18037314ed00",
+    "First_name" : "lstd1",
+    "Last_name" : "lstd1",
+    "org_name" : "LifePoint Health"
+  },
+  "Institution" : {
+    "finished_openskill" : [
+      12,
+      56,
+      67
+    ],
+    "Open_Skill" : [
+      {
+        "Passing_Score" : "84",
+        "Cert_Type" : 1,
+        "Due_Date" : "2018-12-29 23:59:00",
+        "Skill_Type" : "Adult 1-Provider CPR",
+        "Assignment_ID" : "14248711-a4f3-e811-a93d-00505616063a",
+        "Skill_Type_id" : 12
+      },
+      {
+        "Passing_Score" : "84",
+        "Cert_Type" : 1,
+        "Due_Date" : "2018-12-29 23:59:00",
+        "Skill_Type" : "Adult 2-Provider CPR",
+        "Assignment_ID" : "14248711-a4f3-e811-a93d-00505616063a",
+        "Skill_Type_id" : 34
+      },
+      {
+        "Passing_Score" : "84",
+        "Cert_Type" : 2,
+        "Due_Date" : "2018-12-29 23:59:00",
+        "Skill_Type" : "Adult Compressions",
+        "Assignment_ID" : "14248711-a4f3-e811-a93d-00505616063a",
+        "Skill_Type_id" : 56
+      },
+      {
+        "Passing_Score" : "84",
+        "Cert_Type" : 3,
+        "Due_Date" : "2018-12-29 23:59:00",
+        "Skill_Type" : "Adult Ventilation",
+        "Assignment_ID" : "14248711-a4f3-e811-a93d-00505616063a",
+        "Skill_Type_id" : 67
+      }
+    ],
+    "inst_id" : "5377f43b-29a2-11e7-bf2a-18037314ed00",
+    "inst_name" : "LifePoint Health Medical Center",
+    "complete_openskills" : false,
+    "feedback" : ""
+  }
+}
