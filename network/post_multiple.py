@@ -21,7 +21,7 @@ sample = {'a': {'b':'c'}}
 
 files = {
     'json': (None, json.dumps(sample), 'application/json'),
-    'rawHexBPfile': ('rawHexBPfile', f_bin, 'application/octet-stream')
+    'rawHexBPfile': ('rawHexBPfile.bin', f_bin, 'application/octet-stream')
 }
 
 
