@@ -12,7 +12,6 @@ f_json = open('train_condition.json', 'rb')
 json_file = json.load(f_json)
 #print(type(json_file))
 
-
 f_bin = open('rawHexBPfile.bin', 'rb')
 
 #files = {'rawHexBPfile': f_bin}
