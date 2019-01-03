@@ -18,6 +18,3 @@ response = requests.post(url, files=files)
 
 print(response.url)
 pprint.pprint(response.text)
-
-#print(response.json())
-
