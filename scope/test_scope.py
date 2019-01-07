@@ -21,6 +21,11 @@ class GlobalValTester(unittest.TestCase):
         Sub1.inc_val()
         self.assertEqual(Sub1.get_value_staticmethod(), 4)
 
+    def test_05_Sub1_change_value(self):
+        Sub1.set_value_staticmethod(100)
+        Sub0.change_sub1_value(200)
+        print(Sub1.get_value_staticmethod())
+
 if __name__ == '__main__':
     # begin the unittest.main()
     unittest.main()
