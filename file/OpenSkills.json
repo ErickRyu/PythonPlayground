@@ -1,143 +1,186 @@
 {
-   "hstream_user":{
+    "osj_version":1.7,
+    "hstream_user":{
       "main_video":"http: //www.mainvideo.com",
       "organizations":[
-         {
-            "org_id":"0eba0f96-29a2-11e7-bf2a-18037314ed00",
-            "org_name":"LifePoint Health",
-            "first_name":"lstd1",
-            "last_name":"lstd1",
-            "institutions":[
-               {
-                  "inst_id":"5377f43b-29a2-11e7-bf2a-18037314ed00",
-                  "inst_name":"LifePoint Health Medical Center",
-                  "open_skill":[
-                     {
-                        "cert_type":1,
-                        "skill_type":"Adult 1-Provider CPR",
-                        "skill_type_id":12,
-                        "passing_score":"84",
-                        "due_date":"2018-12-29 23:59:00",
-                        "assignment_id":"14248711-a4f3-e811-a93d-00505616063a"
-                     },
-                     {
-                        "cert_type":1,
-                        "skill_type":"Adult 2-Provider CPR",
-                        "skill_type_id":34,
-                        "passing_score":"84",
-                        "due_date":"2018-12-29 23:59:00",
-                        "assignment_id":"14248711-a4f3-e811-a93d-00505616063a"
-                     },
-                     {
-                        "cert_type":1,
-                        "skill_type":"Adult Compressions",
-                        "skill_type_id":56,
-                        "passing_score":"84",
-                        "due_date":"2018-12-29 23:59:00",
-                        "assignment_id":"14248711-a4f3-e811-a93d-00505616063a"
-                     },
-                     {
-                        "cert_type":1,
-                        "skill_type":"Adult Ventilation",
-                        "skill_type_id":67,
-                        "passing_score":"84",
-                        "due_date":"2018-12-29 23:59:00",
-                        "assignment_id":"14248711-a4f3-e811-a93d-00505616063a"
-                     }
-                  ],
-                  "feedback":"",
-                  "help_docs":{
-					 "video":"http://hca.com/policyvideo",
-                     "documents":[
-                        {
-                           "file_store_id":"106CBC1C-A1F3-E811-A93-00505616063A",
-                           "document_name":"Manikin_Instruction.doc",
-                           "file_store_org_node_id":"5377f43b-29a2-11e7-bf2a-18037314ed00"
-                        },
-                        {
-                           "file_store_id":"5674C1C-A1F3-E811-A93-00505616063A",
-                           "document_name":"Manikin_Maintenance.doc",
-                           "file_store_org_node_id":"5377f43b-29a2-11e7-bf2a-18037314ed00"
-                        }
-                     ],
-                     "online_docs":[
-                        {
-                           "display_name":"Manikin Usage",
-                           "url":"http://wwww.redcross.com/instructions.pdf"
-                        }
-                     ]
+        {
+          "org_id":"0eba0f96-29a2-11e7-bf2a-18037314ed00",
+          "org_name":"LifePoint Health",
+          "first_name":"lstd1",
+          "last_name":"lstd1",
+          "institutions":[
+            {
+              "inst_id":"5377f43b-29a2-11e7-bf2a-18037314ed00",
+              "inst_name":"LifePoint Health Medical Center",
+              "open_skill":[
+                {
+                  "cert_type":1,
+                  "skill_type":"Adult 1-Provider CPR",
+                  "skill_type_id":4,
+                  "passing_score":84,
+                  "finish_train":{
+                    "auto_stop":"auto",
+                    "stop_conditions":{
+                        "cycle_num":3
+                    }
+                  },
+                  "due_date":"2018-12-29 23:59:00",
+                  "assignment_id":"14248711-a4f3-e811-a93d-00505616063a"
+                },
+                {
+                  "cert_type":1,
+                  "skill_type":"Adult 2-Provider CPR",
+                  "skill_type_id":8,
+                  "passing_score":84,
+                  "finish_train":{
+                    "auto_stop":"manual"
+                  },
+                  "due_date":"2018-12-29 23:59:00",
+                  "assignment_id":"14248711-a4f3-e811-a93d-00505616063a"
+                },
+                {
+                  "cert_type":1,
+                  "skill_type":"Adult Compressions",
+                  "skill_type_id":1,
+                  "passing_score":84,
+                  "finish_train":{
+                    "auto_stop":"auto",
+                    "stop_conditions":{
+                        "comp_num":60
+                    }
+                  },
+                  "due_date":"2018-12-29 23:59:00",
+                  "assignment_id":"14248711-a4f3-e811-a93d-00505616063a"
+                },
+                {
+                  "cert_type":1,
+                  "skill_type":"Adult Ventilation",
+                  "skill_type_id":2,
+                  "passing_score":84,
+                  "finish_train":{
+                    "auto_stop":"auto",
+                    "stop_conditions":{
+                        "vent_num":12
+                    }
+                  },
+                  "due_date":"2018-12-29 23:59:00",
+                  "assignment_id":"14248711-a4f3-e811-a93d-00505616063a"
+                }
+              ],
+              "feedback":"",
+              "help_docs":{
+                "video":"http://hca.com/policyvideo",
+                "documents":[
+                  {
+                    "file_store_id":"106CBC1C-A1F3-E811-A93-00505616063A",
+                    "document_name":"Manikin_Instruction.doc",
+                    "file_store_org_node_id":"5377f43b-29a2-11e7-bf2a-18037314ed00"
+                  },
+                  {
+                    "file_store_id":"5674C1C-A1F3-E811-A93-00505616063A",
+                    "document_name":"Manikin_Maintenance.doc",
+                    "file_store_org_node_id":"5377f43b-29a2-11e7-bf2a-18037314ed00"
                   }
-               },
-               {
-                  "inst_id":"5678f43b-29a2-11e7-bf2a-18037314ed00",
-                  "inst_name":"Life Point Enterprise Center",
-                  "open_skill":[
-                     {
-                        "cert_type":1,
-                        "skill_type":"Adult 1-Provider CPR",
-                        "skill_type_id":12,
-                        "passing_score":"84",
-                        "due_date":"2018-12-29 23:59:00",
-                        "assignment_id":"45678711-a4f3-e811-a93d-00505616063a"
-                     },
-                     {
-                        "cert_type":1,
-                        "skill_type":"Adult 2-Provider CPR",
-                        "skill_type_id":34,
-                        "passing_score":"84",
-                        "due_date":"2018-12-29 23:59:00",
-                        "assignment_id":"45678711-a4f3-e811-a93d-00505616063a"
-                     },
-                     {
-                        "cert_type":1,
-                        "skill_type":"Adult Compressions",
-                        "skill_type_id":56,
-                        "passing_score":"84",
-                        "due_date":"2018-12-29 23:59:00",
-                        "assignment_id":"45678711-a4f3-e811-a93d-00505616063a"
-                     },
-                     {
-                        "cert_type":1,
-                        "skill_type":"Adult Ventilation",
-                        "skill_type_id":67,
-                        "passing_score":"84",
-                        "due_date":"2018-12-29 23:59:00",
-                        "assignment_id":"45678711-a4f3-e811-a93d-00505616063a"
-                     }
-                  ],
-                  "feedback":"",
-                  "help_docs":{
-                     "video":"http://google.com",
-                     "documents":[
-                        {
-                           "file_store_id":"A05CBC1C-A1F3-E811-A93-00505616063A",
-                           "document_name":"Manikin_Instruction.doc",
-                           "file_store_org_node_id":"FFFFFFFF-FFFF-FFFF-FFFF-000000000002"
-                        },
-                        {
-                           "file_store_id":"1234C1C-A1F3-E811-A93-00505616063A",
-                           "document_name":"Manikin_Maintenance.doc",
-                           "file_store_org_node_id":"FFFFFFFF-FFFF-FFFF-FFFF-000000000002"
-                        }
-                     ],
-                     "online_docs":[
-                        {
-                           "display_name":"Manikin Usage",
-                           "url":"http://wwww.redcross.com/institutions.pdf"
-                        },
-                        {
-                           "display_name":"Best Practices",
-                           "url":"https://www.healthstream.com/bestpractices.pdf"
-                        },
-                        {
-                           "display_name":"Maintenance Institutions",
-                           "url":"https://www.innosonian.com/instructions.html"
-                        }
-                     ]
+                ],
+                "online_docs":[
+                  {
+                    "display_name":"Manikin Usage",
+                    "url":"http://wwww.redcross.com/instructions.pdf"
                   }
-               }
-            ]
-         }
+                ]
+              }
+            },
+            {
+              "inst_id":"5678f43b-29a2-11e7-bf2a-18037314ed00",
+              "inst_name":"Life Point Enterprise Center",
+              "open_skill":[
+                {
+                  "cert_type":1,
+                  "skill_type":"Adult 1-Provider CPR",
+                  "skill_type_id":4,
+                  "passing_score":84,
+                  "finish_train":{
+                    "auto_stop":"auto",
+                    "stop_conditions":{
+                        "cycle_num":3
+                    }
+                  },
+                  "due_date":"2018-12-29 23:59:00",
+                  "assignment_id":"14248711-a4f3-e811-a93d-00505616063a"
+                },
+                {
+                  "cert_type":1,
+                  "skill_type":"Adult 2-Provider CPR",
+                  "skill_type_id":8,
+                  "passing_score":84,
+                  "finish_train":{
+                    "auto_stop":"manual"
+                  },
+                  "due_date":"2018-12-29 23:59:00",
+                  "assignment_id":"14248711-a4f3-e811-a93d-00505616063a"
+                },
+                {
+                  "cert_type":1,
+                  "skill_type":"Adult Compressions",
+                  "skill_type_id":1,
+                  "passing_score":84,
+                  "finish_train":{
+                    "auto_stop":"auto",
+                    "stop_conditions":{
+                        "comp_num":60
+                    }
+                  },
+                  "due_date":"2018-12-29 23:59:00",
+                  "assignment_id":"14248711-a4f3-e811-a93d-00505616063a"
+                },
+                {
+                  "cert_type":1,
+                  "skill_type":"Adult Ventilation",
+                  "skill_type_id":2,
+                  "passing_score":84,
+                  "finish_train":{
+                    "auto_stop":"auto",
+                    "stop_conditions":{
+                        "vent_num":12
+                    }
+                  },
+                  "due_date":"2018-12-29 23:59:00",
+                  "assignment_id":"14248711-a4f3-e811-a93d-00505616063a"
+                }
+              ],
+              "feedback":"",
+              "help_docs":{
+                "video":"http://google.com",
+                "documents":[
+                  {
+                    "file_store_id":"A05CBC1C-A1F3-E811-A93-00505616063A",
+                    "document_name":"Manikin_Instruction.doc",
+                    "file_store_org_node_id":"FFFFFFFF-FFFF-FFFF-FFFF-000000000002"
+                  },
+                  {
+                    "file_store_id":"1234C1C-A1F3-E811-A93-00505616063A",
+                    "document_name":"Manikin_Maintenance.doc",
+                    "file_store_org_node_id":"FFFFFFFF-FFFF-FFFF-FFFF-000000000002"
+                  }
+                ],
+                "online_docs":[
+                  {
+                    "display_name":"Manikin Usage",
+                    "url":"http://wwww.redcross.com/institutions.pdf"
+                  },
+                  {
+                    "display_name":"Best Practices",
+                    "url":"https://www.healthstream.com/bestpractices.pdf"
+                  },
+                  {
+                    "display_name":"Maintenance Institutions",
+                    "url":"https://www.innosonian.com/instructions.html"
+                  }
+                ]
+              }
+            }
+          ]
+        }
       ]
-   }
-}
+    }
+  }
