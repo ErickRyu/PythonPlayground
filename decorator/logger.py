@@ -21,3 +21,9 @@ def add(x, y):
 
 print(add(2,5))
 print(add(4,5))
+
+
+def say_hello(name):
+    return f"Hello {name}"
+
+print(say_hello('Meee'))
