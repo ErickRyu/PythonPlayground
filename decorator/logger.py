@@ -1,3 +1,4 @@
+import functools
 import logging
 import time
 
@@ -14,13 +15,27 @@ def dec_logger(origin_func):
     return wrapper
 
 
-@dec_logger
+def debug(func):
+    """Print the function signature and return value"""
+    @functools.wraps(func)
+    def wrapper_debug(*args, **kwargs):
+        args_repr = [repr(a) for a in args]                      # 1
+        kwargs_repr = [f"{k}={v!r}" for k, v in kwargs.items()]  # 2
+        signature = ", ".join(args_repr + kwargs_repr)           # 3
+        print(f"Calling {func.__name__}({signature})")
+        value = func(*args, **kwargs)
+        print(f"{func.__name__!r} returned {value!r}")           # 4
+        return value
+    return wrapper_debug
+
+
+@debug
 def add(x, y):
     return x + y
 
 
-print(add(2,5))
-print(add(4,5))
+print('Print out - ', add(2,5))
+print('Print out - ', add(4,5))
 
 
 def say_hello(name):
