@@ -4,7 +4,8 @@ import requests, pprint
 # url = 'https://miffle.braydenlab.com/miffle/file_get_multiple.php'
 # url = 'https://miffle.braydenlab.com/miffle/post_php.php'
 # url = 'https://miffle.braydenlab.com/miffle/get_files_and_calc.php'
-url = 'https://toffle.braydenlab.com/leuven/post_php.php'
+#url = 'https://toffle.braydenlab.com/leuven/post_php.php'
+url = 'https://general.braydenlab.com/general/post_php.php'
 
 f_json = open('train_condition.json', 'rb')
 f_bin = open('rawHexBPfile.bin', 'rb')

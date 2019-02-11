@@ -18,12 +18,14 @@ class CheckDirectories():
             return False
         return True
 
+
 class GetFilenames():
     @staticmethod
     def get_filenames_in(path):
         files = os.listdir(path)
         for name in files:
             print(name)
+
 
 if __name__ == '__main__':
     print(CheckDirectories.check_main_directory())
