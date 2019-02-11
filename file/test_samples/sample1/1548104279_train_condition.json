@@ -1,0 +1,130 @@
+{
+  "OpenSkill" : [
+    1024
+  ],
+  "Usage" : {
+    "Time" : "14:56:30",
+    "Coaching" : "Self training",
+    "uName" : "Sudha Allam",
+    "Comment" : "This is comment field",
+    "Type" : "Ventilation only",
+    "Date" : "2019.01.21",
+    "Email" : "o6625273@nwytg.net",
+    "Level" : "Lay"
+  },
+  "Dummy" : {
+    "DeviceID" : "5b14",
+    "Firmware" : "1.0.5555",
+    "Hardware" : "1.0",
+    "Model" : "Brayden Baby"
+  },
+  "Organization" : {
+    "Last_name" : "Allam",
+    "First_name" : "Sudha",
+    "org_name" : "Century Health System",
+    "org_id" : "d8039e6f-077c-11de-a5b8-0015171c5bb3"
+  },
+  "Institution" : {
+    "inst_name" : "Century Midtown Medical Center",
+    "inst_id" : "f5458f78-23e6-e811-a334-005056aa3705",
+    "feedback" : "True",
+    "Open_Skill" : [
+      {
+        "Cert_Type" : 2,
+        "Skill_Type_id" : 4,
+        "Skill_Type" : "Adult 1-Provider CPR",
+        "Passing_Score" : "84",
+        "Due_Date" : "2019-11-30 23:59:00",
+        "Assignment_ID" : "DE1AE82A-980F-E911-80D9-005056AA3705"
+      },
+      {
+        "Cert_Type" : 2,
+        "Skill_Type_id" : 1,
+        "Skill_Type" : "Adult Compressions",
+        "Passing_Score" : "84",
+        "Due_Date" : "2019-11-30 23:59:00",
+        "Assignment_ID" : "DE1AE82A-980F-E911-80D9-005056AA3705"
+      },
+      {
+        "Cert_Type" : 2,
+        "Skill_Type_id" : 2,
+        "Skill_Type" : "Adult Ventilation",
+        "Passing_Score" : "84",
+        "Due_Date" : "2019-11-30 23:59:00",
+        "Assignment_ID" : "DE1AE82A-980F-E911-80D9-005056AA3705"
+      },
+      {
+        "Cert_Type" : 2,
+        "Skill_Type_id" : 64,
+        "Skill_Type" : "Child 1-Provider CPR",
+        "Passing_Score" : "84",
+        "Due_Date" : "2019-11-30 23:59:00",
+        "Assignment_ID" : "DE1AE82A-980F-E911-80D9-005056AA3705"
+      },
+      {
+        "Cert_Type" : 2,
+        "Skill_Type_id" : 16,
+        "Skill_Type" : "Child Compressions",
+        "Passing_Score" : "84",
+        "Due_Date" : "2019-11-30 23:59:00",
+        "Assignment_ID" : "DE1AE82A-980F-E911-80D9-005056AA3705"
+      },
+      {
+        "Cert_Type" : 2,
+        "Skill_Type_id" : 32,
+        "Skill_Type" : "Child Ventilation",
+        "Passing_Score" : "84",
+        "Due_Date" : "2019-11-30 23:59:00",
+        "Assignment_ID" : "DE1AE82A-980F-E911-80D9-005056AA3705"
+      },
+      {
+        "Cert_Type" : 3,
+        "Skill_Type_id" : 64,
+        "Skill_Type" : "Child 1-Provider CPR",
+        "Passing_Score" : "84",
+        "Due_Date" : "2019-11-30 23:59:00",
+        "Assignment_ID" : "DE1AE82A-980F-E911-80D9-005056AA3705"
+      },
+      {
+        "Cert_Type" : 3,
+        "Skill_Type_id" : 16,
+        "Skill_Type" : "Child Compressions",
+        "Passing_Score" : "84",
+        "Due_Date" : "2019-11-30 23:59:00",
+        "Assignment_ID" : "DE1AE82A-980F-E911-80D9-005056AA3705"
+      },
+      {
+        "Cert_Type" : 3,
+        "Skill_Type_id" : 32,
+        "Skill_Type" : "Child Ventilation",
+        "Passing_Score" : "84",
+        "Due_Date" : "2019-11-30 23:59:00",
+        "Assignment_ID" : "DE1AE82A-980F-E911-80D9-005056AA3705"
+      },
+      {
+        "Cert_Type" : 3,
+        "Skill_Type_id" : 1024,
+        "Skill_Type" : "Infant 1-Provider CPR",
+        "Passing_Score" : "84",
+        "Due_Date" : "2019-11-30 23:59:00",
+        "Assignment_ID" : "DE1AE82A-980F-E911-80D9-005056AA3705"
+      },
+      {
+        "Cert_Type" : 3,
+        "Skill_Type_id" : 256,
+        "Skill_Type" : "Infant Compressions",
+        "Passing_Score" : "84",
+        "Due_Date" : "2019-11-30 23:59:00",
+        "Assignment_ID" : "DE1AE82A-980F-E911-80D9-005056AA3705"
+      },
+      {
+        "Cert_Type" : 3,
+        "Skill_Type_id" : 512,
+        "Skill_Type" : "Infant Ventilation",
+        "Passing_Score" : "84",
+        "Due_Date" : "2019-11-30 23:59:00",
+        "Assignment_ID" : "DE1AE82A-980F-E911-80D9-005056AA3705"
+      }
+    ]
+  }
+}
