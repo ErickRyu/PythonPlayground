@@ -27,3 +27,7 @@ class Sub1:
     def get_value_staticmethod():
         return Sub1.value
 
+    @staticmethod
+    def set_value_staticmethod(new_value):
+        Sub1.value = new_value
+
