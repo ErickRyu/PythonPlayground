@@ -1,10 +1,16 @@
+import sys
 import argparse
-p = argparse.ArgumentParser()
-p.add_argument('foo')
-p.add_argument('bar')
-
 
 if __name__ == "__main__":
-    args = p.parse_args()
-    print(**vars(args))
 
+    print(sys.argv)
+    parser = argparse.ArgumentParser()
+
+    parser.add_argument('items', metavar='N', type=str, nargs='+', help='items to show')
+    parser.add_argument('-c', '--client_id', type=str, default='', help='input client_id if it has')
+
+    args = vars(parser.parse_args())
+    print(args['client_id'])
+    print(args)
+
+    #print("Hi there {}, it's nice to meet you!".format(args["name"]))
