@@ -9,7 +9,6 @@ print(pair_dict)
 if 'b' in pair_dict:
     print('b is ', pair_dict['b'])
     pair_dict.pop('b')
-    pair_dict.
 
 print(pair_dict)
 
