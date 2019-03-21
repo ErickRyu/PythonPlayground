@@ -2,9 +2,9 @@ import copy
 
 pair_dict = dict()
 
-pair_dict = {'b':100, 'c':50, 'a':2}
+pair_dict = {'b': 100, 'c': 50, 'a': 2}
 
-print(pair_dict)
+print('test print', pair_dict)
 
 if 'b' in pair_dict:
     print('b is ', pair_dict['b'])
@@ -27,3 +27,5 @@ test_list = list()
 test_list.append('1')
 
 print(test_list)
+
+
