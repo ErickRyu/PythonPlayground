@@ -8,7 +8,8 @@ import requests, pprint
 #url = 'https://general.braydenlab.com/service/post_php.php'
 #url = 'https://general.braydenlab.com/port/cpr_test'
 #url = 'https://general.braydenlab.com/port/sample'
-url = 'https://general.braydenlab.com/service/cpr_testout.php'
+#url = 'https://general.braydenlab.com/service/cpr_testout.php'
+url ='https://general.braydenlab.com/port/cpr_analyzer_provider_genk'
 
 f_json = open('train_condition.json', 'rb')
 f_bin = open('rawHexBPfile.bin', 'rb')
