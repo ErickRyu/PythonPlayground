@@ -6,6 +6,8 @@
     "DeviceID" : "755a"
   },
   "Usage" : {
+    "Application name" : "Brayden online",
+    "Application version" : "1.0",
     "Time" : "17:44:22",
     "Type" : "CPR Training",
     "Coaching" : "Self training",
@@ -17,7 +19,7 @@
     "Assign": "Doctor"
   },
   "Debug" : {
-
+    "Force_Error" : "empty_hex_content"
   },
   "Custom": {
     "GeneralClientID": "oost-limburg",
