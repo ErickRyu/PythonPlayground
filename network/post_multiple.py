@@ -1,5 +1,6 @@
 import json
 import requests
+import threading
 import time
 
 # url = 'https://miffle.braydenlab.com/miffle/file_get_multiple.php'
@@ -15,53 +16,37 @@ url ='https://hstream.braydenlab.com/hstream/cpr_analyze_provider.php'
 
 rawHexBPfile = 'bigsize_rawHexBPfile.bin'
 
-#f_json = open('bigsize_train_condition.json', 'rb')
-#f_bin = open('bigsize_rawHexBPfile.bin', 'rb')
-# f_json = open('normal_train_condition.json', 'rb')
-# f_bin = open('normal_rawHexBPfile.bin', 'rb')
+def post_thread(files):
+    response = requests.post(url, files=files)
+    print(response.url)
+    print(response.text)
 
-f_json = open('normal_train_condition.json', 'rb')
-f_bin = open(rawHexBPfile, 'rb')
-json_file = json.load(f_json)
-files = {
-    'data': (None, json.dumps(json_file), 'application/json'),
-    'rawHexBPfile': ('rawHexBPfile.bin', f_bin, 'application/octet-stream')
-}
 
-response = requests.post(url, files=files)
-print(response.url)
-print(response.text)
-# time.sleep(0.1)
+if __name__ == "__main__":
 
-f_bin = open(rawHexBPfile, 'rb')
-files = {
-    'data': (None, json.dumps(json_file), 'application/json'),
-    'rawHexBPfile': ('rawHexBPfile.bin', f_bin, 'application/octet-stream')
-}
-
-response = requests.post(url, files=files)
-print(response.url)
-print(response.text)
-
-if response.text == '':
-    print('--------------- None response --------------')
-
+    f_json = open('normal_train_condition.json', 'rb')
     f_bin = open(rawHexBPfile, 'rb')
+
+    json_file = json.load(f_json)
     files = {
         'data': (None, json.dumps(json_file), 'application/json'),
         'rawHexBPfile': ('rawHexBPfile.bin', f_bin, 'application/octet-stream')
     }
 
-    response = requests.post(url, files=files)
-    print(response.url)
-    print(response.text)
+    xSend = threading.Thread(target=post_thread, args=(files, ))
+    print('Start thread')
+    xSend.start()
 
-# f_bin = open(rawHexBPfile, 'rb')
-# files = {
-#     'data': (None, json.dumps(json_file), 'application/json'),
-#     'rawHexBPfile': ('rawHexBPfile.bin', f_bin, 'application/octet-stream')
-# }
-#
-# response = requests.post(url, files=files)
-# print(response.url)
-# print(response.text)
+    time.sleep(1)
+
+    # xSend = threading.Thread(target=post_thread, args=(files,))
+    # print('Start thread')
+    # xSend.start()
+    #
+    # xSend = threading.Thread(target=post_thread, args=(files,))
+    # print('Start thread')
+    # xSend.start()
+    #
+    # xSend = threading.Thread(target=post_thread, args=(files,))
+    # print('Start thread')
+    # xSend.start()
