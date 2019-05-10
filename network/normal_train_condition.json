@@ -3,7 +3,7 @@
     "Firmware" : "1.0.5555",
     "Model" : "Brayden pro",
     "Hardware" : "1.0",
-    "DeviceID" : "755a"
+    "DeviceID" : "TEST"
   },
   "Usage" : {
     "Application name" : "Brayden online",
@@ -19,7 +19,7 @@
     "Assign": "Doctor"
   },
   "Debug" : {
-    "Force_Error" : "empty_hex_content"
+    "Force_Error" : ""
   },
   "Custom": {
     "GeneralClientID": "oost-limburg",
