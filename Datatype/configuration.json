@@ -1,16 +1,81 @@
 {
-  "Dev": {
-    "Discrimination": "Develop",
-    "loginURL": "https://aaaa",
-    "APIURL": "https://aaaa",
-    "CalcURL": "https://hstream.braydenlab.com/ccc",
-    "BuildNo": "1234"
-  },
-  "Prod": {
-    "Discrimination": "",
-    "loginURL": "https://bbbb",
-    "APIURL": "https://bbbbb",
-    "CalcURL": "https://hstream.braydenlab.com/ccc",
-    "BuildNo": "1111"
+  "hStream_user": {
+    "Main_Video": "https://www.youtube.com/watch?v=cyw5JeXtOB0",
+    "Organizations": [
+      {
+        "org_id": "285b5dfe-8a16-e911-b189-005056b10657",
+        "org_name": "Quality Care Health System",
+        "First_name": "Nikki",
+        "Last_name": "Troia",
+        "Institutions": [
+          {
+            "inst_id": "49c18030-8c16-e911-b189-005056b10657",
+            "inst_name": "Quality Care Medical Center",
+            "is_bridge_user": false,
+            "Open_Skill": [
+              {
+                "Cert_Type": 3,
+                "Skill_Type": "Child 1-Provider CPR",
+                "Skill_Type_id": 64,
+                "Passing_Score": "84",
+                "Due_Date": "2023-01-01 23:59:00",
+                "Assignment_ID": "4D8732D5-AF71-E911-9DEF-005056B10652"
+              },
+              {
+                "Cert_Type": 3,
+                "Skill_Type": "Child Compressions",
+                "Skill_Type_id": 16,
+                "Passing_Score": "84",
+                "Due_Date": "2023-01-01 23:59:00",
+                "Assignment_ID": "4D8732D5-AF71-E911-9DEF-005056B10652"
+              },
+              {
+                "Cert_Type": 3,
+                "Skill_Type": "Child Ventilation",
+                "Skill_Type_id": 32,
+                "Passing_Score": "84",
+                "Due_Date": "2023-01-01 23:59:00",
+                "Assignment_ID": "4D8732D5-AF71-E911-9DEF-005056B10652"
+              },
+              {
+                "Cert_Type": 3,
+                "Skill_Type": "Infant 1-Provider CPR",
+                "Skill_Type_id": 1024,
+                "Passing_Score": "84",
+                "Due_Date": "2023-01-01 23:59:00",
+                "Assignment_ID": "4D8732D5-AF71-E911-9DEF-005056B10652"
+              },
+              {
+                "Cert_Type": 3,
+                "Skill_Type": "Infant Compressions",
+                "Skill_Type_id": 256,
+                "Passing_Score": "84",
+                "Due_Date": "2023-01-01 23:59:00",
+                "Assignment_ID": "4D8732D5-AF71-E911-9DEF-005056B10652"
+              }
+            ],
+            "feedback": "True",
+            "help_docs": {
+              "video": "https://www.youtube.com/watch?v=1wj-zixnz2s",
+              "online_docs": [
+              ],
+              "documents": [
+                {
+                  "file_store_id": "f2f31f9d-0241-e911-9b76-005056b13721",
+                  "document_name": "CPR Instructions.pdf",
+                  "file_store_org_node_id": "49c18030-8c16-e911-b189-005056b10657"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
   }
 }
+
+
+
+
+
+
