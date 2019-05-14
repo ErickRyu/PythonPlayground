@@ -1,16 +1,28 @@
 {
   "Dev": {
-    "Discrimination": "Develop",
-    "loginURL": "https://aaaa",
-    "APIURL": "https://aaaa",
-    "CalcURL": "https://hstream.braydenlab.com/ccc",
-    "BuildNo": "1234"
+    "Watermark": "Develop",
+    "UserPoolURL": "https://aaaa",
+    "CognitoIdentityUserPoolRegion": "USEast1",
+    "CognitoIdentityUserPoolId": "us-east-1_liHl8gVrX",
+    "CognitoIdentityUserPoolAppClientId": "an8ec3ae7grtuo3u35vkbqhvh",
+    "CognitoIdentityUserPoolAppClientSecret": "48s4dsa58u9iu8dg8io2o3oqd7lv7bu4675ee3f5j69c68ic5iv",
+    "AWSCognitoUserPoolsSignInProviderKey": "UserPool",
+    "GetSkillsURL": "https://ssss",
+    "SendResultURL": "https://asdf",
+    "ForgetPassURL": "https://zxcv",
+    "CalcURL": "https://hstream.braydenlab.com/ccc"
   },
   "Prod": {
-    "Discrimination": "",
-    "loginURL": "https://bbbb",
-    "APIURL": "https://bbbbb",
-    "CalcURL": "https://hstream.braydenlab.com/ccc",
-    "BuildNo": "1111"
+    "Watermark": "",
+    "UserPoolURL": "https://aaaa",
+    "CognitoIdentityUserPoolRegion": "USEast1",
+    "CognitoIdentityUserPoolId": "us-east-1_liHl8gVrX",
+    "CognitoIdentityUserPoolAppClientId": "an8ec3ae7grtuo3u35vkbqhvh",
+    "CognitoIdentityUserPoolAppClientSecret": "48s4dsa58u9iu8dg8io2o3oqd7lv7bu4675ee3f5j69c68ic5iv",
+    "AWSCognitoUserPoolsSignInProviderKey": "UserPool",
+    "GetSkillsURL": "https://ssss",
+    "SendResultURL": "https://asdf",
+    "ForgetPassURL": "https://zxcv",
+    "CalcURL": "https://hstream.braydenlab.com/ccc"
   }
 }
