@@ -1,0 +1,12 @@
+{
+  "Watermark": "",
+  "CognitoIdentityUserPoolRegion": "USEast1",
+  "CognitoIdentityUserPoolId": "us-east-1_RVlTn7mjg",
+  "CognitoIdentityUserPoolAppClientId": "1jittse6vdech8p1j996u3usfg",
+  "CognitoIdentityUserPoolAppClientSecret": "11hoe0c28n5ts44bbb1vusph90f3q7d24lukjha0ndvlnrn9cuvi",
+  "AWSCognitoUserPoolsSignInProviderKey": "UserPool",
+  "GetSkillsURL": "https://hlc-api.hstream.net/prod/api/hs/Resuscitation/V1/GetResuscitationOpenSkills",
+  "SendResultURL": "https://edge.hstream.net/api/submit",
+  "ForgetPassURL": "https://portal.hstream.net/account/forgot-password",
+  "CalcURL": "https://hstream.braydenlab.com/hstream/cpr_analyze_provider.php"
+}
