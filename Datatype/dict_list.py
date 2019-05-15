@@ -29,3 +29,8 @@ test_list.append('1')
 print(test_list)
 
 
+test = {}
+test['open'] = ''
+
+
+print(test)

@@ -21,14 +21,15 @@ def post_thread(case_number):
 
     url = 'https://hstream.braydenlab.com/hstream/cpr_analyze_provider.php'
     f_json = open('normal_train_condition.json', 'rb')
-    f_bin = open('bigsize_rawHexBPfile.bin', 'rb')
+    #f_bin = open('bigsize_rawHexBPfile.bin', 'rb')
+    f_bin = open('zerosize.bin', 'rb')
 
     json_file = json.load(f_json)
     if case_number == 0:
         json_file['Debug']['Force_Error'] = 'empty_open_skills'
     elif case_number == 1:
         json_file['Debug']['Force_Error'] = 'empty_hex_content'
-    elif case_number == 3:
+    elif case_number == 2:
         json_file['Debug']['Force_Error'] = 'unexpected_termination'
 
     files = {
