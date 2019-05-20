@@ -16,4 +16,4 @@ sum_of_count = 0
 for item in lst:
     sum_of_count += int(item.find('count').text)
 
-print('Sum of count', sum_of_count)
+print('Sum of count is', sum_of_count)
