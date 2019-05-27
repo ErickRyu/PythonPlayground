@@ -32,5 +32,8 @@ print(test_list)
 test = {}
 test['open'] = ''
 
+print(test)
+
+test['open'] = {'calc_time': 1234}
 
 print(test)

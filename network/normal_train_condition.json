@@ -20,7 +20,8 @@
   },
   "Debug" : {
     "Force_Error" : "",
-    "Retry_Count" : 0
+    "Retry_Count" : 0,
+    "RequestReport" : "calc_time"
   },
   "Custom": {
     "GeneralClientID": "oost-limburg",

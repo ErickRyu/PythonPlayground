@@ -38,5 +38,9 @@
     "Skill_Type_id" : 256,
     "Cert_Type" : 2,
     "Assignment_ID" : "14248711-a4f3-e811-a93d-00505616063a"
+  },
+  "Debug" :
+  {
+    "RequestReport" : "all"
   }
 }
