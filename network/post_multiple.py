@@ -11,8 +11,8 @@ import time
 #url = 'https://general.braydenlab.com/port/cpr_test'
 #url = 'https://general.braydenlab.com/port/sample'
 #url = 'https://general.braydenlab.com/service/cpr_testout.php'
-#url ='https://general.braydenlab.com/port/cpr_analyzer_provider_genk'
-url ='https://hstream.braydenlab.com/hstream/cpr_analyze_provider.php'
+url ='https://general.braydenlab.com/port/cpr_analyzer_provider_genk'
+#url ='https://hstream.braydenlab.com/hstream/cpr_analyze_provider.php'
 
 rawHexBPfile = 'bigsize_rawHexBPfile.bin'
 

@@ -21,7 +21,7 @@
   "Debug" : {
     "Force_Error" : "",
     "Retry_Count" : 0,
-    "RequestReport" : "calc_time"
+    "RequestReport" : "all"
   },
   "Custom": {
     "GeneralClientID": "oost-limburg",
