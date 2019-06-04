@@ -6,6 +6,7 @@ import time
 from bs4 import BeautifulSoup as bs
 from urllib.request import urlopen
 import re
+from hidden import id_pass
 
 login_url = 'https://www.instagram.com/accounts/login/?source=auth_switcher'
 keyword = 'weedle'
@@ -13,9 +14,7 @@ keyword = 'weedle'
 tag_url = 'https://www.instagram.com/explore/tags/'
 search_url = tag_url + keyword + '/'
 
-insta_id = 'hwoong@gmail.com'
-insta_pw = 'xjfdjqt1'
-
+insta_id, insta_pw = id_pass()
 browser = wd.Chrome(executable_path='../common/Selenium/chromedriver')
 browser.get(login_url)
 
@@ -46,3 +45,11 @@ for link in links:
 
 #browser.get(links[1])
 print(urlopen(links[1]).read())
+
+text_url = urlopen(links[1]).read()
+
+result = re.findall('\S+?n.jpg\S+', str(text_url))
+print(result)
+
+jpg_url = result[-1].split('"')[1]
+print(jpg_url)
