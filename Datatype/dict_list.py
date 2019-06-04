@@ -19,7 +19,9 @@ print(sorted_list)
 
 copied_dict = copy.deepcopy(pair_dict)
 copied_dict.pop('c')
+copied_dict['g'] = 12
 print(copied_dict)
+
 print('show:', pair_dict.get('d', 'null'))
 
 test_list = list()

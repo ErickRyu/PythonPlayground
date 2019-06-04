@@ -2,6 +2,7 @@ import re
 import argparse
 import json
 import requests
+import time
 
 '''
 Usage example: 
@@ -29,14 +30,25 @@ if __name__ == "__main__":
         'rawHexBPfile': ('rawHexBPfile.bin', f_bin, 'application/octet-stream')
     }
 
+    start_time = time.time()
     response = requests.post(args['url'], files=files)
-    result = json.loads(response.text)
+    elapsed_time = time.time() - start_time
 
-    report_json = result
+    result = dict()
+    if response.status_code == 500:
+        print('500 error')
+        result = {'Error': ['Service is not responding']}
+    else:
+        print('No 500 error', response.status_code)
+        result = json.loads(response.text)
+
+    report_json = dict()
     if 'SystemReport' in result:
-        print(result['SystemReport'])
         report_json = result['SystemReport']
+    else:
+        report_json = result
 
+    report_json['response_time'] = elapsed_time
     report_file = open(domain_header + '_report.json', 'w')
     report_file.write(json.dumps(report_json))
     report_file.close()
