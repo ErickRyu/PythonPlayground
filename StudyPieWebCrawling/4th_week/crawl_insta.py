@@ -4,6 +4,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import time
 from bs4 import BeautifulSoup as bs
+from urllib.request import urlopen
 import re
 
 login_url = 'https://www.instagram.com/accounts/login/?source=auth_switcher'
@@ -40,7 +41,8 @@ for link in script.findAll('a'):
     if re.match("/p", link.get('href')):
         links.append('https://www.instagram.com'+link.get('href'))
 
-print(links)
-
 for link in links:
     print(link)
+
+#browser.get(links[1])
+print(urlopen(links[1]).read())
