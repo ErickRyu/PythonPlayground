@@ -53,3 +53,5 @@ print(result)
 
 jpg_url = result[-1].split('"')[1]
 print(jpg_url)
+
+#bs.find(‘meta’, ‘property=og:image’)[‘content’]
