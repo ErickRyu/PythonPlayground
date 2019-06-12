@@ -20,3 +20,4 @@ class ToScrapeSpiderXPath(scrapy.Spider):
         if next_page_url is not None:
             yield scrapy.Request(response.urljoin(next_page_url))
 
+#//*[@id="qpos_1_1"]/div/div[1]/div/div/div/div[@class="kw-box"/a[1]/text()
