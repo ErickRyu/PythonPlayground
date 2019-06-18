@@ -50,5 +50,9 @@ custom = {'changed_string': 'second', 'added_string': 'new'}
 
 prompt['origin'].update(custom)
 
+print('changed: ', prompt)
+
+no_value = {}
+prompt['origin'].update(no_value)
 
 print('changed: ', prompt)
