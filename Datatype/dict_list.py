@@ -36,6 +36,19 @@ test['open'] = ''
 
 print(test)
 
-test['open'] = {'calc_time': 1234}
+test['open'] = {'calc_time': 1234, 'changed_string': 'first'}
 
 print(test)
+
+prompt = dict()
+prompt['origin'] = {'fixed string': 'solid value', 'changed_string': 'first', 'other string': 'other value'}
+
+print('prompt: ', prompt)
+
+custom = dict()
+custom = {'changed_string': 'second', 'added_string': 'new'}
+
+prompt['origin'].update(custom)
+
+
+print('changed: ', prompt)
