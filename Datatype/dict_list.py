@@ -56,3 +56,16 @@ no_value = {}
 prompt['origin'].update(no_value)
 
 print('changed: ', prompt)
+
+D1 = {1: {2: {3: 4, 5: 6}, 3: {4: 5, 6: 7}}, 2: {3: {4: 5}, 4: {6: 7}}}
+
+
+def iterdict(d):
+    for k, v in d.items():
+        if isinstance(v, dict):
+            iterdict(v)
+        else:
+            print(k, ":", v)
+
+
+iterdict(D1)
