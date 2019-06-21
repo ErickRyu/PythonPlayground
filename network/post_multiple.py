@@ -6,14 +6,14 @@ import time
 # url = 'https://miffle.braydenlab.com/miffle/file_get_multiple.php'
 # url = 'https://miffle.braydenlab.com/miffle/post_php.php'
 # url = 'https://miffle.braydenlab.com/miffle/get_files_and_calc.php'
-#url = 'https://toffle.braydenlab.com/leuven/post_php.php'
+url = 'https://toffle.braydenlab.com/leuven/post_php.php'
 #url = 'https://general.braydenlab.com/service/post_php.php'
 #url = 'https://general.braydenlab.com/port/cpr_test'
 #url = 'https://general.braydenlab.com/port/sample'
 #url = 'https://general.braydenlab.com/service/cpr_testout.php'
 #url ='https://general.braydenlab.com/port/cpr_analyzer_provider_genk'
 #url ='https://hstream.braydenlab.com/hstream/cpr_analyze_provider.php'
-url ='https://miffle.braydenlab.com/port/cpr_analyzer_provider_leuven'
+#url ='https://miffle.braydenlab.com/port/cpr_analyzer_provider_leuven'
 
 rawHexBPfile = 'bigsize_rawHexBPfile.bin'
 
